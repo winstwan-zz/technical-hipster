@@ -23,6 +23,11 @@ Guide for Publishing/Developing on this Blog
 
 1. Get the code from [github](https://github.com/winstwan/technical-hipster).
 
+1. Get all your cool package friends in one place.
+  ```
+  npm install
+  ```
+
 1. Read the docs for [poet](http://jsantell.github.io/poet/). Write your new article with jade and/or markdown in the `./_posts/` directory.
 
 1. Double-check that the site renders locally.  One of poet's major downfalls that I've noticed is that one bad article can prevent the site from loading.
@@ -30,7 +35,7 @@ Guide for Publishing/Developing on this Blog
   node server   # should launch development server at localhost:3000/
   ```
   
-1. Set up a remote branch name for github, if you haven't already
+1. Set up a remote branch name for github, if you haven't already.
   ```
   git remote add origin https://github.com/winstwan/technical-hipster
   ```
