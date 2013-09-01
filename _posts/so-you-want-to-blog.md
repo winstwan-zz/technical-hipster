@@ -2,7 +2,7 @@
   "title"    : "So You Want To Do This \"Blog\" Thing",
   "author"   : "WinsterIsComing",
   "tags"     : [ "tutorial", "poet" ],
-  "category" : "Tutorials",
+  "category" : "tutorials",
   "date"     : "8-31-2013"
 }}}
 
@@ -40,7 +40,7 @@ Guide for Publishing/Developing on this Blog
   git remote add origin https://github.com/winstwan/technical-hipster
   ```
 
-1. Push chages to github.
+1. Push changes to github.
   ```
   git add <file1.txt> <file2.txt> ...
   git commit -m "My informative comment here"

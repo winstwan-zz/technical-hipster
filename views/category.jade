@@ -1,7 +1,8 @@
 extends layout
 
 block content
-  h3
-    a(href=categoryUrl(category)) posts in category * #{category}
+  h3.category-header
+    a(href=categoryUrl(category)) posts in 
+      span.category #{category}
   - each post in posts
     include includes/postSnippet

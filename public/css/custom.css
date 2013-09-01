@@ -1,0 +1,96 @@
+.tags a {
+  padding-right: 4px;
+}
+
+.label {
+  border-radius: 0;
+  background-color: #999;
+}
+
+.label:hover {
+  border-radius: 0;
+  background-color: #666;
+}
+
+h1, h2, h3 {
+  font-family: Georgia;
+  font-weight: normal;
+}
+
+.post h1 {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 15px 0 5px;
+  text-align: right;
+}
+
+.well {
+  background-color: #f0f0f0;
+  border-radius : 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar .brand {
+  padding: 14px 20px;  
+  font-family: Chunkfive, Georgia;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.post .date {
+  font-size: 11px;
+  padding: 3px 0 6px;
+  display: block;
+  text-align: right;
+}
+
+body {
+  margin-top: 0;
+}
+
+p {
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+h3 .tag, h3 .category {
+  font-weight: bold;
+}
+
+.navbar {
+  position: static;
+  margin-bottom: 10px;
+  border-bottom: 10px solid #666;
+}
+
+.navbar-inner {
+  background-image: none;
+}
+
+@font-face {
+  font-family: Chunkfive;
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Chunkfive-webfont.woff') format('woff'), 
+       url('fonts/Chunkfive-webfont.ttf') format('truetype'), 
+       url('fonts/Chunkfive-webfont.svg#webfont') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+a { color: #000; }
+.blue a { color: #08c; }
+.orange a { color: #c90; }
+.red a { color: #944; }
+.green a { color: #093; }
+.black a { color: #000; }
+.blue .navbar-inner { background-color: #08c; }
+.red .navbar-inner { background-color: #944; }
+.orange .navbar-inner { background-color: #c90; }
+.green .navbar-inner { background-color: #093; }
+.black .navbar-inner { background-color: #333; }
