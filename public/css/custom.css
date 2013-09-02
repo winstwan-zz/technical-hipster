@@ -37,10 +37,9 @@ h1, h2, h3 {
   font-size: 24px;
 }
 
-.post .date {
+.post .post_details {
   font-size: 11px;
   padding-top: 8px;
-  display: block;
   text-align: right;
 }
 

@@ -5,7 +5,11 @@ block content
     h1
       a(href=post.url)
         = post.title
-    span.date #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
+    div.post_details
+      span.date #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
+      if post.author
+        | &nbsp;by&nbsp;
+        span.author #{post.author}
     div.post.content
       != post.content
     div.tags
