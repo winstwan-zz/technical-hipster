@@ -2,7 +2,7 @@
   "title"    : "So You Want To Do This \"Blog\" Thing",
   "author"   : "WinsterIsComing",
   "tags"     : [ "tutorial", "poet" ],
-  "category" : "tutorials",
+  "category" : "Tutorials",
   "date"     : "8-31-2013"
 }}}
 
