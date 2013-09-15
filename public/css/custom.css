@@ -47,7 +47,7 @@ body {
   margin-top: 0;
 }
 
-p {
+p, li {
   color: #333;
   line-height: 1.7em;
   font-family: Georgia, serif;
@@ -111,3 +111,7 @@ a { color: #000; }
 .orange .navbar-inner { background-color: #c90; }
 .green .navbar-inner { background-color: #093; }
 .black .navbar-inner { background-color: #333; }
+
+q:before { content: open-quote; }
+q:after { content: close-quote; }
+cite: { font-style: italic; }

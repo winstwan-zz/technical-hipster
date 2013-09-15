@@ -10,7 +10,7 @@ Nominally, I'm a Biologist.  That makes sense given that I spent a decade of my 
 
 I end up generating a lot of quick prototypes and just sort of keep them around in case they end up being of use down the road.  Most of the time these things don't get released anywhere other than places I know of or that I can access (BTW, its pretty easy to sell [security through obscurity](http://en.wikipedia.org/wiki/Security_through_obscurity) to biologists).  I try to keep all of them at my fingertips though in case they fit the bill for a given situation. 
 
-For example, people sometimes ask me, "hey has your lab done experiment **X**"?  Inside I'm thinking "Are you crazy, we've done 1.3 million experiments in the past two years, I don't keep track of the one you care about".  Outside, I stay calm and [pull out my phone](http://cuantohipster.com/wp-content/uploads/2012/11/business-casual-hipster-moda-look-wtf-ridiculo-hortera1.jpg).  I pop open an iOS app prototype I built and look it up for them.  As soon as they see this
+For example, people sometimes ask me, "Hey, has your lab done experiment **X**"?  Inside I'm thinking "Are you crazy, we've done 1.3 million experiments in the past two years, I don't keep track of the one you care about".  Outside, I stay calm and [pull out my phone](http://cuantohipster.com/wp-content/uploads/2012/11/business-casual-hipster-moda-look-wtf-ridiculo-hortera1.jpg).  I pop open an iOS app prototype I built and look it up for them.  As soon as they see this
 
 ![WTF is that, how do I get me some!](/images/posts/hipsterPrototype/pert_search_type.png)
 
