@@ -5,8 +5,10 @@ html
     meta(charset='utf-8')
     link(rel='stylesheet', href='/css/bootstrap.css')
     link(rel='stylesheet', href='/css/custom.css')
+    link(rel='stylesheet', href='/css/comments.css')
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
     script(src="/js/common.js")
+    //- script(scr="/lib/zepto.min.js")
   body
     .navbar.navbar-fixed-top
       .navbar-inner
@@ -15,7 +17,7 @@ html
     .wrap
       .container
         .row
-          .span8
+          .span8#main_content
             block content
           .span4
             .well.sidebar-nav
