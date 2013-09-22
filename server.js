@@ -20,11 +20,12 @@ var comments = new Comments({
 });
 
 // Poet + Comments
-poet.init().then(function () {});
-
-// add routes for comments
-require("./routes/comments")(poet, app, comments);
-require("./routes/post_comments")(poet, app, comments, _);
+poet.init().then(function () {
+  // add routes for comments
+  // POST routes need to added after init() for some reason
+  require("./routes/comments")(poet, app, comments);
+  require("./routes/post_comments")(poet, express, app, comments, _);
+});
 
 // all environments
 app.set('port', process.env.PORT || 3000);

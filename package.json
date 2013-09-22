@@ -5,7 +5,7 @@
     "technicalhipster.com",
     "www.technicalhipster.com"
   ],
-  "version": "0.0.1-14",
+  "version": "0.0.1-16",
   "private": true,
   "engines": {
     "node": ">=0.6.x"

@@ -1,4 +1,4 @@
-module.exports = function (poet, app, comments, _) {
+module.exports = function (poet, express, app, comments, _) {
   // generate all POST routing for each blog post
   _.each(poet.posts, function (post, index, array) {
     app.post(post.url, [express.json(), express.urlencoded()],  function (req, res) {
