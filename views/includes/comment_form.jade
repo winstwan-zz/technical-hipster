@@ -1,0 +1,10 @@
+.comment_form
+  form(name='new_comment', action='#', method='POST')
+    .row-fluid
+      .span3
+        input(type='text', name='username', placeholder='username')   
+        input(type='text', name='password', placeholder='super secret password')   
+      .span9
+        textarea(name='message', placeholder='add comment...')
+    .row-fluid
+      input(type='submit', value='save')

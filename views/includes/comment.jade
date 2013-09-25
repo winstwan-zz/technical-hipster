@@ -1,0 +1,11 @@
+.comment
+  .row-fluid
+    .span3
+      .metainfo
+        .author
+          = comment.author
+        .timestamp
+          = comment.date.toDateString()
+    .span9
+      .message
+        = comment.message

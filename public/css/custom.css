@@ -104,13 +104,17 @@ a { color: #000; }
 .orange a { color: #c90; }
 .red a { color: #944; }
 .green a { color: #093; }
-.black a { color: #000; }
-.black .content a { background-color: #f9f9f9; }
+.purple a { color: #808; }
+.blue .comments h3 { color: #08c; }
+.orange .comments h3 { color: #c90; }
+.red .comments h3 { color: #944; }
+.green .comments h3 { color: #093; }
+.purple .comments h3 { color: #808; }
 .blue .navbar-inner { background-color: #08c; }
 .red .navbar-inner { background-color: #944; }
 .orange .navbar-inner { background-color: #c90; }
 .green .navbar-inner { background-color: #093; }
-.black .navbar-inner { background-color: #333; }
+.purple .navbar-inner { background-color: #808; }
 
 q:before { content: open-quote; }
 q:after { content: close-quote; }

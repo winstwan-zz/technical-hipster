@@ -3,16 +3,27 @@ extends layout
 block content
   div.post
     h1
-      a(href=post.url)
+      a#title_href(href=post.url)
         = post.title
     div.post_details
       span.date #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
       if post.author
         | &nbsp;by&nbsp;
         span.author #{post.author}
-    div.post.content
+    div.post_content
       != post.content
     div.tags
       - each tag in post.tags
         a(href=tagUrl(tag))
           span.label.label-info #{tag}
+
+  script.
+    var post_url_name = $("#title_href").attr('href').split('/').pop();
+    $(document).ready( function () {
+      // get JSON comment data
+      $.getJSON("/comments/" + post_url_name, function (data, status, xhr) {
+        console.log(data);
+        $(data['html']).appendTo( $("#main_content") );
+      });
+    });
+
